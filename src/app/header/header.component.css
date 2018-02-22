@@ -1,0 +1,95 @@
+
+#navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.logo {
+  padding-top: 28px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation-menu .navbar-nav li a {
+  color: rgba(255, 255, 255, 0.71);
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 18.15px;
+  padding: 30px 13px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.navigation-menu .navbar-nav .active {
+  color: #fff;
+}
+
+.navigation-menu .navbar-nav li a:hover {
+  color: #fff;
+  background: none;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav li a:focus,
+.nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: none;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.navbar {
+  margin: 0;
+}
+
+.nav-bg {
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav-bg .logo {
+  padding-top: 18px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav-bg .logo a {
+  color: #131313;
+}
+
+.nav-bg .navigation-menu .navbar-nav li a {
+  color: #131313;
+  padding: 20px 13px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.nav-bg .navigation-menu .navbar-nav li a:hover {
+  color: #01BAFD;
+}
+
+.nav-bg .navbar-nav>.active>a,
+.nav-bg .navbar-nav>.active>a:hover,
+.nav-bg .navbar-nav>.active>a:focus {
+  color: #01BAFD !important;
+  background-color: transparent;
+}

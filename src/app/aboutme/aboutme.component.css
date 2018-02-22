@@ -1,0 +1,124 @@
+#about{
+  background: #f2f2f2;
+  padding-bottom: 70px;
+  padding-top: 50px;
+
+}
+
+.experience {
+  background: #fff;
+}
+.cv-section {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 60px;
+}
+.cv-item {
+  padding: 25px 0 5px 30px;
+  border-left: 1px solid #e1e1e1;
+  margin-top: -10px;
+}
+.cv-section-title{
+  padding: 15px 0;
+  text-align: right;
+}
+.cv-section-title h1 {
+  color: #01BAFD;
+  font-weight: 800;
+  line-height: 57px;
+  position: relative;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+.cv-section-title h3 {
+  color: #0f283e;
+  font-weight: 800;
+  line-height: 15px;
+  font-size: 1em;
+}
+.cv-item h3{
+  color: #0f283e;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.cv-section-title p {
+  font-size: .8em;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+
+}
+.cv-section-title p, .cv-item p{
+  line-height: 30px;
+}
+.cv-section-title h1:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  content: "";
+}
+.cv-section-title h1 span {
+  position: relative;
+}
+.cv-section-title h1 span small {
+  position: absolute;
+  font-size: .4em;
+  top: -10px;
+  left: 0;
+}
+.cv-item h3{
+  font-weight: 800;
+  margin-top: 0;
+}
+.cv-section:last-child{
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.cv-section-title h1, .cv-section-title h3, .cv-item h3{
+  margin-top: 0;
+}
+
+.logo {
+  height: 100px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  text-transform: lowercase;
+}
+
+.experience{
+  margin-top: 50px;
+}
+
+
+
+h2 {
+  margin: 0px 0 40px 0;
+  font-weight: 300;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+
+}
+
+h1 {
+  color: #48b14d;
+}
+
+@media handheld, only screen and (max-width: 992px) {
+
+  .cv-section-title h1:after{
+    left: 0;
+  }
+  .cv-section-title{
+    text-align: left;
+  }
+  .cv-item{
+    padding-left: 0;
+    border-left: none;
+  }
+
+
+}

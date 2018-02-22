@@ -1,0 +1,42 @@
+<hr>
+<section id="projects">
+  <div class="works" id="2">
+    <div class="page-head">
+      <div class="row">
+        <div class="col-md-5">
+          <h3>Projects</h3>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-wrap">
+      <div class="row">
+        <ul id="filter-list" class="clearfix">
+          <li class="filter" (click)="filter('all')"><i class="fa fa-th"></i> All</li>
+          <li class="filter" (click)="filter('FullStack')">Full Stack</li>
+          <li class="filter" (click)="filter('Android')">Android</li>
+          <li class="filter" (click)="filter('Datascience')">DataScience</li>
+        </ul>
+        <ul id="portfolio">
+          <li class="item col-md-4 animated flipInX" *ngFor="let project of projects"  >
+            <a title="Example 1" (click)="projectOnClick(project)">
+              <div class="folio-img">
+                <img src="../../assets/images/1.jpg" alt="" class="img-responsive">
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <h4>{{project.name}}</h4>
+                    <p>Click to view more . .</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<app-project></app-project>
+
+<app-recommendations></app-recommendations>

@@ -1,0 +1,18 @@
+
+
+
+.testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/images/back-image.png);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.carousel-caption {
+  padding-bottom: 110px;
+}
+
+.item{
+  height: 400px;
+  overflow: visible;
+}
